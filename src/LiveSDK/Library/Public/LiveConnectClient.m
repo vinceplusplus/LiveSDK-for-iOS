@@ -35,7 +35,7 @@
 
 @interface LiveConnectClient()
 {
-@private
+@protected
     LiveConnectClientCore *_liveClientCore;
 }
 

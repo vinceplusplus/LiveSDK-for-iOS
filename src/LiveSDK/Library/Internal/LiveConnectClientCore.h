@@ -42,7 +42,7 @@
 
 @interface LiveConnectClientCore : NSObject 
 {
-@private
+@protected
     LiveAuthStorage *_storage;
 }
 
